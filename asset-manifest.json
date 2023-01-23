@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2090faa9.css",
-    "main.js": "/static/js/main.25d32cfd.js",
+    "main.css": "/static/css/main.95ac22f3.css",
+    "main.js": "/static/js/main.af55ca59.js",
     "static/media/NanumSquareNeo-bRg.ttf": "/static/media/NanumSquareNeo-bRg.dc621da24afcf6c33e03.ttf",
     "static/media/NanumSquareNeo-aLt.ttf": "/static/media/NanumSquareNeo-aLt.8372ddf971ec32258e72.ttf",
     "static/media/NanumSquareNeo-cBd.ttf": "/static/media/NanumSquareNeo-cBd.2bf6888760d6cd8ba7c1.ttf",
@@ -12,11 +12,11 @@
     "static/media/alphabet.png": "/static/media/alphabet.72d3288dfef5ecde6c98.png",
     "static/media/clover.png": "/static/media/clover.10e7d37b5869d151b4c8.png",
     "index.html": "/index.html",
-    "main.2090faa9.css.map": "/static/css/main.2090faa9.css.map",
-    "main.25d32cfd.js.map": "/static/js/main.25d32cfd.js.map"
+    "main.95ac22f3.css.map": "/static/css/main.95ac22f3.css.map",
+    "main.af55ca59.js.map": "/static/js/main.af55ca59.js.map"
   },
   "entrypoints": [
-    "static/css/main.2090faa9.css",
-    "static/js/main.25d32cfd.js"
+    "static/css/main.95ac22f3.css",
+    "static/js/main.af55ca59.js"
   ]
 }
