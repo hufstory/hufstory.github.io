@@ -68,25 +68,34 @@ const RealMain = () => {
         </div>
 
         <div className="hidden md:flex relative w-full bg-represent-color rounded-[36px]">
-          <p className="absolute z-40 left-[330px] mt-10 text-title-color text-[34px] font-nanumRegular animate-titleMove">
+          <p className="absolute z-40 right-9 mt-10 text-title-color text-[34px] font-nanumRegular animate-titleMove">
             Come to HUFS,<br></br>Meet the World
           </p>
 
-          <p className="absolute z-40 left-[330px] mt-40 text-title-color text-[28px] font-nanumLight animate-titleMove">
+          <p className="absolute z-40 right-9 mt-40 text-title-color text-[28px] font-nanumLight animate-titleMove">
             외대를 만나면, 세계가 보인다!
           </p>
+
+          {/*
+          맥북 기본 화면 위치
+          child : absolute z-30 top-[-10px] w-[300px] animate-childMove
+          cat : absolute z-30 top-[437px] left-[296px] w-[420px] h-[300px] animate-catMove
+          green : absolute z-20 top-[200px] left-[516px] w-[200px] h-[500px] animate-greenMove
+          alphabet : absolute z-20 w-[400px] top-[300px] animate-alphabetMove
+          clover : absolute z-20 h-[50px] top-[600px] left-[180px] animate-cloverAppear
+          */}
           <img
             className="absolute z-30 top-[-10px] w-[300px] animate-childMove"
             src={child}
             alt="child"
           ></img>
           <img
-            className="absolute z-30 top-[437px] left-[296px] w-[420px] h-[300px] animate-catMove"
+            className="absolute z-30 bottom-[-1px] right-0 w-[420px] h-[300px] animate-catMove"
             src={cat}
             alt="cat"
           ></img>
           <img
-            className="absolute z-20 top-[200px] left-[516px] w-[200px] h-[500px] animate-greenMove"
+            className="absolute z-20 bottom-0 right-0 w-[180px] h-[450px] 2xl:w-[200px] 2xl:h-[500px] animate-greenMove"
             src={greenMonster}
             alt="greenMonster"
           ></img>
@@ -96,7 +105,7 @@ const RealMain = () => {
             alt="alphabet"
           ></img>
           <img
-            className="absolute z-20 h-[50px] top-[600px] left-[180px] animate-cloverAppear"
+            className="absolute z-20 h-[50px] top-[600px] left-48 animate-cloverAppear"
             src={clover}
             alt="clover"
           ></img>
