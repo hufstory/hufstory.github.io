@@ -2,8 +2,8 @@
 
 - [훕스토리 홈페이지](https://hufstory.github.io "Hufstory HomePage")
 
-- Update Version 1.0
-    - 2022.01.13(금)
+- Update Version 1.1
+    - 2022.01.23(월)
     - HufStory Web Site
     - 컴퓨터전자시스템공학부 임동혁
     
@@ -12,11 +12,14 @@
 ## Last Updates
 - Version 0.1 HufStory Web Site -> Main, Recruit Page was Updated by DongHyeok Lim, 2022.01.09
 - Version 0.2 HufStory Web site -> About, Activity Page was Updated by DongHyeok Lim, 2022.01.13
-
-- Version 1.0 HufStory Web site -> Main, About, Activity, Recruit :: Responsive Design was Updated by DongHyeok 2022.01.13
+- Version 1.0 HufStory Web site -> Main, About, Activity, Recruit :: Responsive Design was Updated by DongHyeok Lim, 2022.01.13
+- Version 1.1 MainPage Responsive Design was Updated by DongHyeok Lim, 2022.01.23  
+    Delete the Blog part of the Header
 
 ## What to fix
-- 현재 아이패드로 접속할 시 메인 화면 반응형 구현은 완성되지 않았습니다.
+- 현재 아이패드로 접속할 시 메인 화면 반응형 구현은 완성 x
+    - 아이패드로 접속 시 화면이 깨지는 구간을 hidden 처리 - 2022.01.23(월)
+- Teams 카테고리 수정 필요
 
 
 # Getting Started with Create React App
