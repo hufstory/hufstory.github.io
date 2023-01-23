@@ -26,9 +26,6 @@ const Header = () => {
           <Link to="/recruit" className="mr-5 hover:text-gray-700">
             RECRUIT
           </Link>
-          <Link to="/blog" className="mr-5 hover:text-gray-700">
-            BLOG
-          </Link>
         </nav>
       </div>
     </header>
