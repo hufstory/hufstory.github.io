@@ -1,10 +1,12 @@
-# HUFSTORY_WEB_FrontEnd
-훕스토리 웹 사이트 제작 - 프론트엔드
+# HUFSTORY_Page
+
+- [훕스토리 홈페이지](https://hufstory.github.io "Hufstory HomePage")
 
 - Update Version 1.0
     - 2022.01.13(금)
     - HufStory Web Site
     - 컴퓨터전자시스템공학부 임동혁
+    
     
 
 ## Last Updates
