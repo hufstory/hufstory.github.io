@@ -15,6 +15,9 @@
 
 - Version 1.0 HufStory Web site -> Main, About, Activity, Recruit :: Responsive Design was Updated by DongHyeok 2022.01.13
 
+## What to fix
+- 현재 아이패드로 접속할 시 메인 화면 반응형 구현은 완성되지 않았습니다.
+
 
 # Getting Started with Create React App
 
