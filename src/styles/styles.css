@@ -630,8 +630,8 @@ video {
   left: 0px;
 }
 
-.right-9 {
-  right: 2.25rem;
+.left-80 {
+  left: 20rem;
 }
 
 .top-\[-10px\] {
@@ -678,8 +678,8 @@ video {
   bottom: 0px;
 }
 
-.left-48 {
-  left: 12rem;
+.right-3\/4 {
+  right: 75%;
 }
 
 .z-50 {
@@ -1683,8 +1683,8 @@ video {
 }
 
 @media (min-width: 1536px) {
-  .\32xl\:h-\[500px\] {
-    height: 500px;
+  .\32xl\:h-\[480px\] {
+    height: 480px;
   }
 
   .\32xl\:w-\[200px\] {

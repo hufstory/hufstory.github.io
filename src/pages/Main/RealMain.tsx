@@ -68,11 +68,11 @@ const RealMain = () => {
         </div>
 
         <div className="hidden md:flex relative w-full bg-represent-color rounded-[36px]">
-          <p className="absolute z-40 right-9 mt-10 text-title-color text-[34px] font-nanumRegular animate-titleMove">
+          <p className="absolute z-40 left-80 mt-10 text-title-color text-[34px] font-nanumRegular animate-titleMove">
             Come to HUFS,<br></br>Meet the World
           </p>
 
-          <p className="absolute z-40 right-9 mt-40 text-title-color text-[28px] font-nanumLight animate-titleMove">
+          <p className="absolute z-40 left-80 mt-40 text-title-color text-[28px] font-nanumLight animate-titleMove">
             외대를 만나면, 세계가 보인다!
           </p>
 
@@ -95,7 +95,7 @@ const RealMain = () => {
             alt="cat"
           ></img>
           <img
-            className="absolute z-20 bottom-0 right-0 w-[180px] h-[450px] 2xl:w-[200px] 2xl:h-[500px] animate-greenMove"
+            className="absolute z-20 bottom-0 right-0 w-[180px] h-[450px] 2xl:w-[200px] 2xl:h-[480px] animate-greenMove"
             src={greenMonster}
             alt="greenMonster"
           ></img>
@@ -105,7 +105,7 @@ const RealMain = () => {
             alt="alphabet"
           ></img>
           <img
-            className="absolute z-20 h-[50px] top-[600px] left-48 animate-cloverAppear"
+            className="absolute z-20 h-[50px] top-[600px] right-3/4 animate-cloverAppear"
             src={clover}
             alt="clover"
           ></img>
