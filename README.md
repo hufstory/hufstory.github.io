@@ -10,9 +10,9 @@
     
 
 ## Last Updates
-- Version 0.1 HufStory Web Site -> Main, Recruit Page was Updated by DongHyeok Lim, 2022.01.09
-- Version 0.2 HufStory Web site -> About, Activity Page was Updated by DongHyeok Lim, 2022.01.13
-- Version 1.0 HufStory Web site -> Main, About, Activity, Recruit :: Responsive Design was Updated by DongHyeok Lim, 2022.01.13
+- Version 0.1 Main, Recruit Page was Updated by DongHyeok Lim, 2022.01.09
+- Version 0.2 About, Activity Page was Updated by DongHyeok Lim, 2022.01.13
+- Version 1.0 Main, About, Activity, Recruit Responsive Design was Updated by DongHyeok Lim, 2022.01.13
 - Version 1.1 MainPage Responsive Design was Updated by DongHyeok Lim, 2022.01.23  
     Delete the Blog part of the Header
 
