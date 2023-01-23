@@ -1598,10 +1598,6 @@ video {
     margin-left: 5rem;
   }
 
-  .md\:flex {
-    display: flex;
-  }
-
   .md\:h-\[100px\] {
     height: 100px;
   }
@@ -1677,6 +1673,10 @@ video {
 }
 
 @media (min-width: 1280px) {
+  .xl\:flex {
+    display: flex;
+  }
+
   .xl\:w-3\/4 {
     width: 75%;
   }

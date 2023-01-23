@@ -67,7 +67,7 @@ const RealMain = () => {
           </section>
         </div>
 
-        <div className="hidden md:flex relative w-full bg-represent-color rounded-[36px]">
+        <div className="hidden xl:flex relative w-full bg-represent-color rounded-[36px]">
           <p className="absolute z-40 left-80 mt-10 text-title-color text-[34px] font-nanumRegular animate-titleMove">
             Come to HUFS,<br></br>Meet the World
           </p>
