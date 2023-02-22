@@ -32,9 +32,9 @@ const Teams_Oechul = () => {
                 G버스: 버스 위치 정보 서비스
               </button>
             </Link>
-            <Link to="/Teams_Hubigo">
+            <Link to="/Teams_hufsSpetition">
               <button className="text-gray-600 bg-white border-b-2 py-2 px-8 hover:text-sky-600 hover:border-sky-600 text-sm sm:text-base md:text-lg">
-                HUBIGO: 강의 평가 서비스
+                외청: 외대 청원
               </button>
             </Link>
           </div>
@@ -43,9 +43,17 @@ const Teams_Oechul = () => {
             <h1 className="text-xl sm:text-2xl mb-4">
               외출 : 외대생 솔로 탈출 프로젝트
             </h1>
-            <p className="mb-2 text-sm sm:text-base">외출 한줄 요약</p>
+            <p className="mb-2 text-sm sm:text-base">
+              외대생 솔로탈출 프로젝트 '외출'
+            </p>
 
-            <p className="text-sm sm:text-base">외출 설명</p>
+            <p className="text-sm sm:text-base">
+              외로운 솔로생들을 위한 솔로탈출 프로젝트 <br></br><br></br>
+              #이제 그만 외로워도 되잖아 <br></br> 
+              #글로벌캠퍼스 #서울캠퍼스 #외대생 #모두 #환영 <br></br> 
+              #곧크리스마스인데 #솔크는이제그만 #훕스토리 #신입도모집 <br></br>
+              #개발자 #디자이너
+            </p>
           </div>
         </div>
       </div>

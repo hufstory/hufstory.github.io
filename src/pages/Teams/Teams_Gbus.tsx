@@ -32,9 +32,9 @@ const Teams_Gbus = () => {
                 G버스: 버스 위치 정보 서비스
               </button>
             </Link>
-            <Link to="/Teams_Hubigo">
+            <Link to="/Teams_hufsSpetition">
               <button className="text-gray-600 bg-white border-b-2 py-2 px-8 hover:text-sky-600 hover:border-sky-600 text-sm sm:text-base md:text-lg">
-                HUBIGO: 강의 평가 서비스
+                외청: 외대 청원
               </button>
             </Link>
           </div>
@@ -43,9 +43,15 @@ const Teams_Gbus = () => {
             <h1 className="text-xl sm:text-2xl mb-4">
               G버스 : 버스 위치 정보 서비스
             </h1>
-            <p className="mb-2 text-sm sm:text-base">지버스 한줄 요약</p>
+            <p className="mb-2 text-sm sm:text-base">글로벌캠퍼스의 빨간 버스 및 셔틀 버스 위치 정보 서비스</p>
 
-            <p className="text-sm sm:text-base">한줄 설명</p>
+            <p className="text-sm sm:text-base">
+              1. 빵차 위치와 광역버스 위치를 한 뷰에 제공<br></br>
+              2. A정류장에서 B정류장으로 가는데 광역버스와 빵차 시간을 계산하여
+              더 빠른 방법 제공<br></br>
+              3. 광역버스 차고지, 빨버, 빵차 등 출발시간표를 함께제공(현재
+              시각을 기준으로)
+            </p>
           </div>
         </div>
       </div>

@@ -10,7 +10,7 @@ const Header = () => {
           to="/"
         >
           <span className="md:ml-5 text-2xl text-sky-500 font-nanumBold">
-            Hufstory
+            Hufstory-Beta.Ver
           </span>
         </Link>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">

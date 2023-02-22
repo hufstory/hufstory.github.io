@@ -4,6 +4,9 @@ import Header from "../../components/Header"
 import Footer from "../../components/Footer"
 
 const Recruit = () => {
+  const url =
+    "https://docs.google.com/forms/d/e/1FAIpQLSfHGlTMNlkoKvlUVVD_p9VFaX8JEFH3u8TuKHJOc_TXiNfm4Q/viewform"
+
   return (
     <div>
       <Header />
@@ -19,7 +22,10 @@ const Recruit = () => {
               신청은 서울, 글로벌 상관 없이 한국외국어대학교 학생이면 누구나
               가능합니다!
             </p>
-            <button className="inline-flex mr-auto text-white bg-sky-500 border-0 py-2 px-6 hover:bg-sky-600 rounded text-lg animate-bounce mt-[2px] font-nanumRegular">
+            <button
+              onClick={() => window.open(url, '_blank')}
+              className="inline-flex mr-auto text-white bg-sky-500 border-0 py-2 px-6 hover:bg-sky-600 rounded text-lg animate-bounce mt-[2px] font-nanumRegular"
+            >
               지원하기
             </button>
           </div>

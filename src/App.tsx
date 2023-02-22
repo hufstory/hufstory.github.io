@@ -5,7 +5,7 @@ import About from "./pages/About/About"
 import Teams from "./pages/Teams/Teams"
 import Teams_Oechul from "./pages/Teams/Teams_Oechul"
 import Teams_Gbus from "./pages/Teams/Teams_Gbus"
-import Teams_Hubigo from "./pages/Teams/Teams_Hubigo"
+import Teams_hufsSpetition from "./pages/Teams/Teams_hufsSpetition"
 import Recruit from "./pages/Recruit/Recruit"
 import Activity from "./pages/Activity/Activity"
 
@@ -20,7 +20,7 @@ function App() {
         <Route path="/teams" element={<Teams />} />
         <Route path="/teams_oechul" element={<Teams_Oechul />} />
         <Route path="/teams_gbus" element={<Teams_Gbus />} />
-        <Route path="/teams_hubigo" element={<Teams_Hubigo />} />
+        <Route path="/teams_hufsSpetition" element={<Teams_hufsSpetition />} />
         <Route path="/recruit" element={<Recruit />} />
       </Routes>
     </Router>

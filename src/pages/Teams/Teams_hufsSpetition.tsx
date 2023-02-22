@@ -32,20 +32,28 @@ const Teams_Hubigo = () => {
                 G버스: 버스 위치 정보 서비스
               </button>
             </Link>
-            <Link to="/Teams_Hubigo">
+            <Link to="/Teams_HufsSpetition">
               <button className="text-gray-600 bg-white border-b-2 border-sky-400 py-2 px-8 hover:text-sky-600 hover:border-sky-600 text-sm sm:text-base md:text-lg">
-                HUBIGO: 강의 평가 서비스
+                외청: 외대 청원
               </button>
             </Link>
           </div>
 
           <div className="mt-8">
-            <h1 className="text-xl sm:text-2xl mb-4">
-              HUBIGO : 강의 평가 서비스
-            </h1>
-            <p className="mb-2 text-sm sm:text-base">한줄 요약</p>
+            <h1 className="text-xl sm:text-2xl mb-4">외청: 외대 청원</h1>
+            <p className="mb-2 text-sm sm:text-base">
+              외대생들의 청원을 위해 만들어진 사이트
+            </p>
 
-            <p className="text-sm sm:text-base">후비고 설명</p>
+            <p className="text-sm sm:text-base">
+              외대의 청원시스템을 만들어 기존 학우분들의 불만이나 의견을 청원을
+              통해 접수 받는 방향입니다.<br></br>
+              기존의 질문, 건의 게시판같은 경우 올려도 큰 효력을 발휘 못하는
+              경우도 있고<br></br> 많은 학우분들이 원하는 건의이지만 어느정도의
+              수치성을 파악이 안되어 심각한건지등등 을 모르는 경우가 많았습니다.
+              <br></br>
+              이를 외청을 통해 해결을 목표로 만들어진 사이트 입니다.
+            </p>
           </div>
         </div>
       </div>

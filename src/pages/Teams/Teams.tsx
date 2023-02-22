@@ -33,9 +33,9 @@ const Teams = () => {
                 G버스: 버스 위치 정보 서비스
               </button>
             </Link>
-            <Link to="/Teams_Hubigo">
+            <Link to="/Teams_hufsSpetition">
               <button className="text-gray-600 bg-white border-b-2 py-2 px-8 hover:text-sky-600 hover:border-sky-600 text-sm sm:text-base md:text-lg">
-                HUBIGO: 강의 평가 서비스
+                외청: 외대 청원
               </button>
             </Link>
           </div>
