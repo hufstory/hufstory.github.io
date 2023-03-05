@@ -7,7 +7,9 @@
     - HufStory Web Site
     - 컴퓨터전자시스템공학부 임동혁
     
-    
+## Use
+- React :: CRA -> TypeScript
+- Tailwind CSS    
 
 ## Last Updates
 - Version 0.1 Main, Recruit Page was Updated by DongHyeok Lim, 2022.01.09
