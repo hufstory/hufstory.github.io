@@ -3,7 +3,7 @@
 - [훕스토리 홈페이지](https://hufstory.github.io "Hufstory HomePage")
 
 - Update Version 1.1
-    - 2022.01.23(월)
+    - 2023.01.23(월)
     - HufStory Web Site
     - 컴퓨터전자시스템공학부 임동혁
     
@@ -12,20 +12,21 @@
 - Tailwind CSS    
 
 ## Last Updates
-- Version 0.1 Main, Recruit Page was Updated by DongHyeok Lim, 2022.01.09
-- Version 0.2 About, Activity Page was Updated by DongHyeok Lim, 2022.01.13
-- Version 1.0 Main, About, Activity, Recruit Responsive Design was Updated by DongHyeok Lim, 2022.01.13
-- Version 1.1 MainPage Responsive Design was Updated by DongHyeok Lim, 2022.01.23  
+- Version 0.1 Main, Recruit Page was Updated by DongHyeok Lim, 2023.01.09
+- Version 0.2 About, Activity Page was Updated by DongHyeok Lim, 2023.01.13
+- Version 1.0 Main, About, Activity, Recruit Responsive Design was Updated by DongHyeok Lim, 2023.01.13
+- Version 1.1 MainPage Responsive Design was Updated by DongHyeok Lim, 2023.01.23  
     Delete the Blog part of the Header
 
 ## What to fix
 - 현재 아이패드로 접속할 시 메인 화면 반응형 구현은 완성 x
-    - 아이패드로 접속 시 화면이 깨지는 구간을 hidden 처리 - 2022.01.23(월)
+    - 아이패드로 접속 시 화면이 깨지는 구간을 hidden 처리 - 2023.01.23(월)
 - Teams 카테고리 수정 필요
 
 ## HOT FIX
 - 에브리타임으로 사이트 링크 접속 시 모바일로 다크모드를 이용하는 사용자에 한해  
-사이트가 다크모드로 적용되어서 꺠지는 현상 수정해야 함
+사이트가 다크모드로 적용되어서 꺠지는 현상 수정해야 함  
+    - 배경색, 텍스트 색상 수정 처리 - 2023.04.01(토)
 
 
 # Getting Started with Create React App
