@@ -6,7 +6,7 @@ import { Link } from "react-router-dom"
 
 const Teams_Oechul = () => {
   return (
-    <div>
+    <div className="bg-white">
       <Header />
       <div className="bg-white w-4/5 mx-auto mt-8 md:px-5 md:py-5 md:flex-row text-center items-center font-nanumRegular">
         <div className="flex flex-col mt-10 mb-10 text-black body-font bg-transparent relative p-10 rounded-[14px] shadow-default hover:-translate-y-1 hover:scale-100 duration-300">

@@ -6,7 +6,7 @@ import { Link } from "react-router-dom"
 
 const Teams_Gbus = () => {
   return (
-    <div>
+    <div className="bg-white">
       <Header />
       <div className="bg-white w-4/5 mx-auto mt-8 md:px-5 md:py-5 md:flex-row text-center items-center font-nanumRegular">
         <div className="flex flex-col mt-10 mb-10 text-black body-font bg-transparent relative p-10 rounded-[14px] shadow-default hover:-translate-y-1 hover:scale-100 duration-300">
@@ -43,7 +43,9 @@ const Teams_Gbus = () => {
             <h1 className="text-xl sm:text-2xl mb-4">
               G버스 : 버스 위치 정보 서비스
             </h1>
-            <p className="mb-2 text-sm sm:text-base">글로벌캠퍼스의 빨간 버스 및 셔틀 버스 위치 정보 서비스</p>
+            <p className="mb-2 text-sm sm:text-base">
+              글로벌캠퍼스의 빨간 버스 및 셔틀 버스 위치 정보 서비스
+            </p>
 
             <p className="text-sm sm:text-base">
               1. 빵차 위치와 광역버스 위치를 한 뷰에 제공<br></br>
