@@ -15,7 +15,7 @@ const RealMain = () => {
     <div>
       <Header />
 
-      <div className="flex max-w-full h-full ml-4 mr-4 md:ml-36 md:flex-row mb-20 font-nanumLight">
+      <div className="flex max-w-full h-full bg-white text-black ml-4 mr-4 md:ml-36 md:flex-row mb-20 font-nanumLight">
         <div className="block mt-8 w-[32rem] md:mr-[52px]">
           <img
             className="block h-[70px] md:w-[511px] md:h-[100px] mb-16 animate-appear"

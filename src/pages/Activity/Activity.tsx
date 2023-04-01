@@ -7,7 +7,7 @@ const Activity = () => {
   return (
     <div>
       <Header />
-      <section className="text-gray-600 body-font">
+      <section className="bg-white text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto flex flex-wrap">
           <div className="flex flex-col text-center w-full mb-20">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
