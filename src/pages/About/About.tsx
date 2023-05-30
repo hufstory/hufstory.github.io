@@ -5,9 +5,9 @@ import Footer from "../../components/Footer"
 
 const About = () => {
   return (
-    <div>
+    <div className="flex flex-col min-h-screen">
       <Header />
-      <section className="bg-white text-gray-600 body-font">
+      <section className="bg-white text-gray-600 body-font flex-grow">
         <div className="container px-5 py-24 mx-auto">
           <div className="xl:w-3/4 lg:w-3/4 w-full mx-auto text-center">
             <svg
@@ -38,7 +38,7 @@ const About = () => {
 
       <Footer />
     </div>
-  )
+  );
 }
 
 export default About

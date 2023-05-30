@@ -2,8 +2,7 @@ import React from "react"
 import Header from "../../components/Header"
 import MainFooter from "../../components/MainFooter"
 
-import titleLogo from "../../static/images/logo/titleLogo.png"
-import titleLogo2 from "../../static/images/logo/titleLogo2.png"
+import titleLogo from "../../static/images/logo/titleLogo2.png"
 import cat from "../../static/images/assets/cat.png"
 import greenMonster from "../../static/images/assets/greenMonster.png"
 import child from "../../static/images/assets/child.png"
@@ -19,16 +18,9 @@ const RealMain = () => {
           <div className="block mt-8 w-[32rem] md:mr-[52px]">
             <img
               className="block h-[70px] md:w-[511px] md:h-[100px] mb-16 animate-appear"
-              src={titleLogo2}
+              src={titleLogo}
               alt="title2"
             ></img>
-            {/* 타이틀 로고 주석 처리 
-          <img
-            className="block h-[110px] hover:{titleLogo2} mb-16 animate-appear"
-            src={titleLogo}
-            alt="title"
-          ></img>
-          */}
             <section>
               <div className="md:w-[32rem]">
                 <h2 className="font-nanumRegular md:ml-20 text-sm md:text-base">

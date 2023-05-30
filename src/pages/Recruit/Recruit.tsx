@@ -8,9 +8,9 @@ const Recruit = () => {
     "https://docs.google.com/forms/d/e/1FAIpQLSfHGlTMNlkoKvlUVVD_p9VFaX8JEFH3u8TuKHJOc_TXiNfm4Q/viewform"
 
   return (
-    <div className="bg-white">
+    <div className="bg-white flex flex-col min-h-screen">
       <Header />
-      <div className="bg-white">
+      <div className="bg-white flex-grow">
         <div className="w-4/5 mx-auto md:px-3 md:py-3 md:flex-row items-center">
           <div className="flex mt-10 mb-10 text-black body-font bg-transparent relative p-10 rounded-[14px] shadow-default hover:-translate-y-1 hover:scale-100 duration-300">
             <div className="mt-4 block">
@@ -35,7 +35,7 @@ const Recruit = () => {
       </div>
       <Footer />
     </div>
-  )
+  );
 }
 
 export default Recruit
