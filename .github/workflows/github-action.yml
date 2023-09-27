@@ -2,7 +2,7 @@ name: "Hufstory Git Action Build"
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   deploy:
