@@ -11,7 +11,7 @@ import Activity from "./pages/Activity/Activity";
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <Routes>
         <Route path="/" element={<RealMain />} />
         <Route path="/about" element={<About />} />
