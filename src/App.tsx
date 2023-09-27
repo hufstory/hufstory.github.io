@@ -9,7 +9,6 @@ import TeamsHufsSpetition from "./pages/Teams/TeamsHufsSpetition"
 import Recruit from "./pages/Recruit/Recruit"
 import Activity from "./pages/Activity/Activity"
 
-// 모든 컴포넌트 전부 호출 (화면 하나하나 전부 다)
 function App() {
   return (
     <Router>
