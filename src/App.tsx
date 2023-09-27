@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, HashRouter } from "react-router-dom";
+import { BrowserRouter as Routes, Route, HashRouter } from "react-router-dom";
 import RealMain from "./pages/Main/RealMain";
 import About from "./pages/About/About";
 import Teams from "./pages/Teams/Teams";
