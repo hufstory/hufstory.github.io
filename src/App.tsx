@@ -11,7 +11,7 @@ import Activity from "./pages/Activity/Activity";
 
 function App() {
   return (
-    <Router basename="/hufstroy">
+    <Router basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<RealMain />} />
         <Route path="/about" element={<About />} />
