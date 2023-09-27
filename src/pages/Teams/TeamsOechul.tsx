@@ -1,8 +1,8 @@
-import React from "react"
+import React from "react";
 
-import Header from "../../components/Header"
-import Footer from "../../components/Footer"
-import { Link } from "react-router-dom"
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
+import { Link } from "react-router-dom";
 
 const Teams_Oechul = () => {
   return (
@@ -10,9 +10,7 @@ const Teams_Oechul = () => {
       <Header />
       <div className="bg-white w-4/5 mx-auto mt-8 md:px-5 md:py-5 md:flex-row text-center items-center font-nanumRegular flex-grow">
         <div className="flex flex-col mt-10 mb-10 text-black body-font bg-transparent relative p-10 rounded-[14px] shadow-default hover:-translate-y-1 hover:scale-100 duration-300">
-          <h2 className="text-xs text-sky-500 tracking-widest font-medium title-font mb-1 font-nanumRegular">
-            Teams
-          </h2>
+          <h2 className="text-xs text-sky-500 tracking-widest font-medium title-font mb-1 font-nanumRegular">Teams</h2>
           <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 font-nanumBold">
             2022 - 현재 진행 팀
           </h1>
@@ -40,12 +38,8 @@ const Teams_Oechul = () => {
           </div>
 
           <div className="mt-8">
-            <h1 className="text-xl sm:text-2xl mb-4">
-              외출 : 외대생 솔로 탈출 프로젝트
-            </h1>
-            <p className="mb-2 text-sm sm:text-base">
-              외대생 솔로탈출 프로젝트 '외출'
-            </p>
+            <h1 className="text-xl sm:text-2xl mb-4">외출 : 외대생 솔로 탈출 프로젝트</h1>
+            <p className="mb-2 text-sm sm:text-base">외대생 솔로탈출 프로젝트 '외출'</p>
 
             <p className="text-sm sm:text-base">
               외로운 솔로생들을 위한 솔로탈출 프로젝트 <br></br>
@@ -62,6 +56,6 @@ const Teams_Oechul = () => {
       <Footer />
     </div>
   );
-}
+};
 
-export default Teams_Oechul
+export default Teams_Oechul;

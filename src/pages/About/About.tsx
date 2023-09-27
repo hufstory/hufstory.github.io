@@ -1,7 +1,7 @@
-import React from "react"
+import React from "react";
 
-import Header from "../../components/Header"
-import Footer from "../../components/Footer"
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 
 const About = () => {
   return (
@@ -20,12 +20,11 @@ const About = () => {
             </svg>
             <p className="leading-relaxed text-lg">
               "훕스토리"는 좋은 사람들과 좋은 프로그램이 함께 합니다.<br></br>
-              다양한 프로젝트 경험을 쌓을 수 있고, 멘토링을 통하여 다양한 기술을
-              학습할 수 있습니다.<br></br> 본인이 원할 시 다대일 멘토링을 통하여
-              다양한 기술을 학습할 수 있으며, 동아리원들과 함께 성장할 수
-              있습니다.<br></br>
-              행사 기획,디자인 등 다양한 분야에서의 활동과 개발자와의 협업은
-              다른 곳에선 경험하지 못할 경험이라고 자신합니다.
+              다양한 프로젝트 경험을 쌓을 수 있고, 멘토링을 통하여 다양한 기술을 학습할 수 있습니다.<br></br> 본인이
+              원할 시 다대일 멘토링을 통하여 다양한 기술을 학습할 수 있으며, 동아리원들과 함께 성장할 수 있습니다.
+              <br></br>
+              행사 기획,디자인 등 다양한 분야에서의 활동과 개발자와의 협업은 다른 곳에선 경험하지 못할 경험이라고
+              자신합니다.
             </p>
             <span className="inline-block h-1 w-10 rounded bg-title-color mt-8 mb-6"></span>
             <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">
@@ -39,6 +38,6 @@ const About = () => {
       <Footer />
     </div>
   );
-}
+};
 
-export default About
+export default About;

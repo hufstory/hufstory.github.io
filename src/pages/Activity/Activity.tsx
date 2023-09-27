@@ -1,7 +1,7 @@
-import React from "react"
+import React from "react";
 
-import Header from "../../components/Header"
-import Footer from "../../components/Footer"
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 
 const Activity = () => {
   return (
@@ -14,8 +14,7 @@ const Activity = () => {
               HUFSTORY 세미나 활동 내역
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-              훕스토리에서 진행했던 세미나 활동 내역이며, 앞으로의 활동들이
-              추가될 예정입니다.
+              훕스토리에서 진행했던 세미나 활동 내역이며, 앞으로의 활동들이 추가될 예정입니다.
             </p>
           </div>
           <div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
@@ -30,9 +29,9 @@ const Activity = () => {
                 <svg
                   fill="none"
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   className="w-12 h-12"
                   viewBox="0 0 24 24"
                 >
@@ -40,13 +39,8 @@ const Activity = () => {
                 </svg>
               </div>
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
-                  HUFS missing semester
-                </h2>
-                <p className="leading-relaxed">
-                  공학 수업에서 필요하지만 학생들이 독학해야하는 내용을 가르치는
-                  수업
-                </p>
+                <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">HUFS missing semester</h2>
+                <p className="leading-relaxed">공학 수업에서 필요하지만 학생들이 독학해야하는 내용을 가르치는 수업</p>
               </div>
             </div>
           </div>
@@ -62,9 +56,9 @@ const Activity = () => {
                 <svg
                   fill="none"
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   className="w-12 h-12"
                   viewBox="0 0 24 24"
                 >
@@ -72,12 +66,8 @@ const Activity = () => {
                 </svg>
               </div>
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
-                  HUFS 기술 세미나
-                </h2>
-                <p className="leading-relaxed">
-                  개발 공부를 독학하는 학생들을 위한 핸즈 온 랩 기술 세미나 진행
-                </p>
+                <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">HUFS 기술 세미나</h2>
+                <p className="leading-relaxed">개발 공부를 독학하는 학생들을 위한 핸즈 온 랩 기술 세미나 진행</p>
               </div>
             </div>
           </div>
@@ -93,9 +83,9 @@ const Activity = () => {
                 <svg
                   fill="none"
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   className="w-12 h-12"
                   viewBox="0 0 24 24"
                 >
@@ -104,12 +94,8 @@ const Activity = () => {
                 </svg>
               </div>
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
-                  AI Gaming 해커톤
-                </h2>
-                <p className="leading-relaxed">
-                  MicroSoft의 지원을 받아 캠퍼스 AI Gaming 해커톤 최초 진행
-                </p>
+                <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">AI Gaming 해커톤</h2>
+                <p className="leading-relaxed">MicroSoft의 지원을 받아 캠퍼스 AI Gaming 해커톤 최초 진행</p>
               </div>
             </div>
           </div>
@@ -125,9 +111,9 @@ const Activity = () => {
                 <svg
                   fill="none"
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   className="w-12 h-12"
                   viewBox="0 0 24 24"
                 >
@@ -139,8 +125,7 @@ const Activity = () => {
                   2022 HUFS 오픈소스 협업 HackaLearn
                 </h2>
                 <p className="leading-relaxed">
-                  오픈소스를 이용한 프로젝트 제작 및 배포하기 공부를 진행하며
-                  하는 해커톤 대회를 진행
+                  오픈소스를 이용한 프로젝트 제작 및 배포하기 공부를 진행하며 하는 해커톤 대회를 진행
                 </p>
               </div>
             </div>
@@ -150,7 +135,7 @@ const Activity = () => {
 
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Activity
+export default Activity;
