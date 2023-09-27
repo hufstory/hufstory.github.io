@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, HashRouter } from "react-router-dom";
 import RealMain from "./pages/Main/RealMain";
 import About from "./pages/About/About";
 import Teams from "./pages/Teams/Teams";
@@ -11,7 +11,7 @@ import Activity from "./pages/Activity/Activity";
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<RealMain />} />
         <Route path="/about" element={<About />} />
@@ -22,7 +22,7 @@ function App() {
         <Route path="/TeamsHufsSpetition" element={<TeamsHufsSpetition />} />
         <Route path="/recruit" element={<Recruit />} />
       </Routes>
-    </Router>
+    </HashRouter>
   );
 }
 
