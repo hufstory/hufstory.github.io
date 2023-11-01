@@ -2,7 +2,7 @@
 
 - [훕스토리 홈페이지](https://hufstory.github.io "Hufstory HomePage")
 
-- Update Version 1.2
+- Update Version 1.0.0-alpha.1
     - 2023.09.27(수)
     - HufStory Web Site
     - 컴퓨터전자시스템공학부 임동혁
@@ -13,11 +13,11 @@
 
 ## Last Version Updates
 - Version 0.1 Main, Recruit Page was updated by DongHyeok Lim, 2023.01.09
-- Version 0.2 About, Activity Page was updated by DongHyeok Lim, 2023.01.13
-- Version 1.0 Main, About, Activity, Recruit Responsive Design was updated by DongHyeok Lim, 2023.01.13
-- Version 1.1 MainPage Responsive Design was updated by DongHyeok Lim, 2023.01.23  
+- Version 0.1.1 About, Activity Page was updated by DongHyeok Lim, 2023.01.13
+- Version 1.0.0-alpha Main, About, Activity, Recruit Responsive Design was updated by DongHyeok Lim, 2023.01.13
+- Version 1.0.0-alpha MainPage Responsive Design was updated by DongHyeok Lim, 2023.01.23  
     Delete the Blog part of the Header
-- Version 1.2 Fixing the issue of 404 error when applying and refreshing github action CI/CD was updated on 2023.09.27
+- Version 1.0.0-alpha Fixing the issue of 404 error when applying and refreshing github action CI/CD was updated on 2023.09.27
 
 ## What to fix
 - 아이패드로 접속할 시 메인 화면 반응형 구현은 완성 x
